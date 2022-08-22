@@ -24,5 +24,5 @@ app.get("/api/v1/:name", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Backend running on port ${PORT} cheers`);
+  console.log(`Backend running on port ${PORT}`);
 });
