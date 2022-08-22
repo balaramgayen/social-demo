@@ -2,7 +2,7 @@ const express = require("express");
 
 const app = express();
 
-const PORT = 4000;
+const PORT = process.env.PORT || 4000;
 
 app.get("/", (re, res) => {
   res.status(200).send("<h1>Backend Running</h1>");
